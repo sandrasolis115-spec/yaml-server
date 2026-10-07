@@ -1,4 +1,5 @@
 #cloud-config
+#cloud-config
 autoinstall:
   version: 1
   # 1. Idioma y teclado
@@ -18,13 +19,10 @@ autoinstall:
   identity:
     hostname: usuario
     username: usuario
-    password:“$6$/33Ncwte7UY2FaPn$7ZwSFIhk8H9sEBIC4dxkn5KOw5L3Ew64Fjii4G0H8Odif5drTUPB.ZkhK7RTqw1yiTEIF3lUwjOJ7A4Z6TLyW/”
+    password: "$6$/33Ncwte7UY2FaPn$7ZwSFIhk8H9sEBIC4dxkn5KOw5L3Ew64Fjii4G0H8Odif5drTUPB.ZkhK7RTqw1yiTEIF3lUwjOJ7A4Z6TLyW/"
 
  
-
   # 4. El disco duro (usa todo el disco disponible de forma automática)
   storage:
     layout:
       name: direct
-
-
